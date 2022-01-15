@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  flex-wrap: wrap;
+}
+img {
+  object-fit: cover;
+}
+.items {
+  display: flex;
+  align-items: center;
+}
+.item {
+  margin-left: 60px;
+}
+.head2 {
+  background-color: rgb(225, 242, 250);
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.item2 {
+  padding-top: 100px;
+}
+.p-color {
+  color: blue;
+}
+.h-color {
+  color: red;
+}
+h1 {
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 40px;
+}
+.radius1 {
+  border-radius: 60px 0 0 0;
+}
+.radius2 {
+  border-radius: 0 0 60px 0;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: end;
+  align-content: flex-end;
+  position: relative;
+  right: -85px;
+}
+.grid1 {
+  height: 40px;
+  width: 50px;
+  background-color: navy;
+}
+.grid2 {
+  height: 40px;
+  width: 50px;
+  background-color: orange;
+}
+.grid3 {
+  height: 40px;
+  width: 50px;
+  background-color: red;
+}
+.grid4 {
+  height: 40px;
+  width: 50px;
+  background-color: white;
+}
+.grid5 {
+  height: 40px;
+  width: 50px;
+  background-color: white;
+}
+.grid6 {
+  height: 40px;
+  width: 50px;
+  background-color: grey;
+}
+.head3 {
+  background-color: white;
+  width: 900px;
+  height: 150px;
+  padding: 10px;
+  position: relative;
+  top: -60px;
+  left: 100;
+}
+ul {
+  list-style: none;
+  width: 800px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-color: rgb(225, 242, 250);
+  padding: 0px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+li {
+  padding: 8px;
+}
+.search {
+  justify-self: flex-end;
+}
+.head3 p {
+  padding: 10px;
+}
+.positioning {
+  margin: 60px;
+}
+.head4 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.flow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+.head4 .flow p {
+  padding: 10px;
+}
+.flow2 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+.sticker {
+  background-color: rgb(225, 242, 250);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.location {
+  display: flex;
+  background-color: rgb(225, 242, 250);
+  width: 350px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 50px;
+}
+.last-contain {
+  background: url("3.jpg");
+  padding: 50px;
+}
+.head5 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+span {
+  color: blue;
+}
+.btn {
+  position: relative;
+  left: 380px;
+}
+.terms-policy {
+  display: flex;
+}
+.terms-policy p {
+  padding-left: 20px;
+}
+.copy-right {
+  display: flex;
+  justify-content: center;
+}
+.flow3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
